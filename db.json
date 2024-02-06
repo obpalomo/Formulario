@@ -1,0 +1,18 @@
+{
+  "peliculas": [
+    {
+      "descripcion": "Spiderman",
+      "year": 2022,
+      "foto": "https://m.media-amazon.com/images/I/715B63QRoTL._AC_UF894,1000_QL80_.jpg",
+      "categoria": "Accion",
+      "id": "1b1d"
+    },
+    {
+      "id": "ec9f",
+      "descripcion": "Batman",
+      "foto": "https://img.asmedia.epimg.net/resizer/Ps7M88QQJYvJoTpx_AN1DXlGnG0=/360x0/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/4GFLC2R235LLVMI3NII7L5OKE4.jpg",
+      "year": "2021",
+      "categoria": "Acción"
+    }
+  ]
+}
