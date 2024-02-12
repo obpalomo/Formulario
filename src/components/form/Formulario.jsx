@@ -31,7 +31,7 @@ function Formulario({ onInsertarItem }) {
 
   return (
     <Form>
-      <h1>Formulario</h1>
+
 
       <Container>
         <Row>

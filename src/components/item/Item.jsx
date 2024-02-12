@@ -1,4 +1,5 @@
 import {
+  Alert,
   Card,
   CardBody,
   CardImg,
@@ -18,7 +19,10 @@ function Item({ item }) {
         <CardSubtitle className="mb-2 text-muted">
           {item.categoria}
         </CardSubtitle>
-        <CardText>...aqui iría una descripción...</CardText>
+        <CardText>
+          ...aqui iría una descripción...
+          <Alert variant="danger">AGOTADAS</Alert>
+        </CardText>
         <ListGroup className="list-group-flush">
           <ListGroupItem>{item.year}</ListGroupItem>
         </ListGroup>

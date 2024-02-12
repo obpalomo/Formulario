@@ -13,6 +13,27 @@
       "foto": "https://img.asmedia.epimg.net/resizer/Ps7M88QQJYvJoTpx_AN1DXlGnG0=/360x0/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/4GFLC2R235LLVMI3NII7L5OKE4.jpg",
       "year": "2021",
       "categoria": "Acción"
+    },
+    {
+      "id": "8405",
+      "descripcion": "Sam y Cat",
+      "foto": "https://m.media-amazon.com/images/M/MV5BNTI1ZmJhY2ItMTE3ZS00ZmM4LTllOTktYmQzZDQ4NjMyYjZmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+      "year": "2018",
+      "categoria": "Series TV"
+    },
+    {
+      "id": "83ef",
+      "descripcion": "nueva",
+      "foto": "na",
+      "year": "2010",
+      "categoria": "suspense"
+    },
+    {
+      "id": "c1f1",
+      "descripcion": "nueva2",
+      "foto": "na",
+      "year": "2015",
+      "categoria": "Terror"
     }
   ]
 }
