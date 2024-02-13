@@ -34,6 +34,13 @@
       "foto": "na",
       "year": "2015",
       "categoria": "Terror"
+    },
+    {
+      "id": "2be3",
+      "descripcion": "nueva4",
+      "foto": "na",
+      "year": "2010",
+      "categoria": "Comedia"
     }
   ]
 }

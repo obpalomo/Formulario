@@ -1,4 +1,11 @@
-import { Container, Navbar, NavbarBrand, Nav, NavDropdown } from "react-bootstrap";
+import {
+  Container,
+  Navbar,
+  NavbarBrand,
+  Nav,
+  NavDropdown,
+} from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function NavigationBar() {
   return (
@@ -8,11 +15,22 @@ function NavigationBar() {
           <NavbarBrand>Films</NavbarBrand>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/peliculas">Películas</Nav.Link>
-              <Nav.Link href="/contacto">Contact</Nav.Link>
+              <Link to="/" className="nav-link">
+                Home
+              </Link>
+              <Link to="/peliculas" className="nav-link">
+                Películas
+              </Link>
+              <Link to="/contacto" className="nav-link">
+                Contact
+              </Link>
+              <Link to="/login" className="nav-link">
+                Login
+              </Link>
               <NavDropdown title="Actions" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/nueva-pelicula">Agregar Película</NavDropdown.Item>
+                <Link to="/nueva-pelicula" className="dropdown-item">
+                  Agregar película
+                </Link>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

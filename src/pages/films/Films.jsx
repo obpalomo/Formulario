@@ -1,16 +1,24 @@
 import { useState, useEffect } from "react";
 import Item from "../../components/item/Item";
 import { Container, Row } from "react-bootstrap";
+import axios from "axios";
 
 function Films() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/peliculas").then((data) => {
+/*     fetch("http://localhost:3000/peliculas").then((data) => {
       data.json().then((dataJson) => {
         setItems([...items, ...dataJson]);
-      });
-    });
+      })
+    }) */
+    axios.get("http://localhost:3000/peliculas")
+    .then((response) => {
+        setItems([...items,...response.data])
+    })
+
+
+
   }, []);
   return (
     <>
